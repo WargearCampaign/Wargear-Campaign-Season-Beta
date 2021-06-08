@@ -1,54 +1,1297 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=670"> 
+        <style>
 
-++ Patrol Detachment 0CP (Aeldari - Harlequins) [52 PL, 4CP, 998pts] ++
+            body.battlescribe {
+                margin: 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
 
-+ Configuration [6CP] +
+            div.battlescribe {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 8px;
+                border-width: 0px;
+                
+                font-family: sans-serif;
+                font-size: 12px;
+                color: #444444;
+                text-align: left;
+            }
 
-Battle Size [6CP]: 2. Incursion (51-100 Total PL / 501-1000 Points)  [6CP]
+            div.battlescribe h1,
+            div.battlescribe h2,
+            div.battlescribe h3,
+            div.battlescribe h4 {
+                margin: 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
 
-Detachment Command Cost
+            div.battlescribe h1 {
+                margin: 8px 0px 0px 0px;
+                
+                font-size: 16px;
+            }
 
-Masque Form: The Frozen Stars: Hysterical Fury
+            div.battlescribe h2 {
+                font-size: 15px;
+            }
 
-+ HQ [10 PL, 191pts] +
+            div.battlescribe h3 {
+                font-size: 14px;
+            }
 
-Shadowseer [6 PL, 115pts]: Hallucinogen Grenade Launcher, Miststave, Shield From Harm, Shuriken Pistol, Smite, Twilight Pathways, Veil of Tears
+            div.battlescribe h4 {
+                font-size: 13px;
+            }
 
-Troupe Master [4 PL, 76pts]: Choreographer of War, Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
+            div.battlescribe div.summary {
+                margin: 16px 0px 0px 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
 
-+ Troops [5 PL, 125pts] +
+            div.battlescribe ul {
+                margin: 0px 0px 0px 16px;
+                padding: 0px;
+                border-width: 0px;
+                
+                list-style-image: none;
+                list-style-position: outside;
+                list-style-type: none;
+            }
 
-Troupe [5 PL, 125pts]
-. Player [1 PL, 25pts]: Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
-. Player [1 PL, 25pts]: Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
-. Player [1 PL, 25pts]: Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
-. Player [1 PL, 25pts]: Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
-. Player [1 PL, 25pts]: Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
+            div.battlescribe li {
+                margin: 8px 0px 0px 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
 
-+ Elites [8 PL, -2CP, 152pts] +
+            div.battlescribe li.force {
+                margin: 24px 0px 0px 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
 
-Death Jester [3 PL, -1CP, 50pts]: 1: Luck of the Laughing God, Cegroach's Lament, Death is not Enough, Harvester of Torment, Shrieker Cannon, Stratagem: Pivotal Role [-1CP], Warlord
+            div.battlescribe li.category {
+                margin: 16px 0px 0px 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
 
-Solitaire [5 PL, -1CP, 102pts]: Blitz, Harlequin's Caress, Harlequin's Kiss, Stratagem: Pivotal Role [-1CP], Unnatural Acrobatics
+            div.battlescribe li.rootselection {
+                margin: 16px 0px 0px 0px;
+                padding: 8px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #BBBBBB;
+                
+                page-break-inside: avoid;
+            }
 
-+ Fast Attack [15 PL, 270pts] +
+            div.battlescribe p {
+                margin: 4px 0px 0px 16px;
+                padding: 0px;
+                border-width: 0px;
+                
+                font-size: 12px;
+            }
 
-Skyweavers [15 PL, 270pts]
-. Skyweaver [55pts]: Haywire Cannon [5pts], Zephyrglaive [5pts]
-. Skyweaver [55pts]: Haywire Cannon [5pts], Zephyrglaive [5pts]
-. Skyweaver [55pts]: Haywire Cannon [5pts], Zephyrglaive [5pts]
-. Skyweaver [55pts]: Haywire Cannon [5pts], Zephyrglaive [5pts]
-. Skyweaver [50pts]: Haywire Cannon [5pts], Star Bolas
+            div.battlescribe p.category-names {
+            }
 
-+ Heavy Support [10 PL, 180pts] +
+            div.battlescribe p.rule-names {
+            }
 
-Voidweaver [5 PL, 90pts]: Haywire Cannon, 2x Shuriken Cannon
+            div.battlescribe p.profile-names {
+            }
 
-Voidweaver [5 PL, 90pts]: Haywire Cannon, 2x Shuriken Cannon
+            div.battlescribe table {
+                margin: 8px 0px 0px 16px;
+                padding: 0px;
+                border-collapse: collapse;
+                
+                font-size: 12px;
+                color: #444444;
+                
+                page-break-inside: avoid;
+            }
 
-+ Dedicated Transport [4 PL, 80pts] +
+            div.battlescribe tr {
+                border-width: 1px;
+                border-style: solid;
+                border-color: #BBBBBB;
+            }
 
-Starweaver [4 PL, 80pts]: 2x Shuriken Cannon
+            div.battlescribe th {
+                padding: 4px;
+                margin: 0px;
+                border-width: 0px;
+                
+                font-weight: bold;
+                text-align: left;
+            }
 
-++ Total: [52 PL, 4CP, 998pts] ++
+            div.battlescribe td {
+                padding: 4px;
+                margin: 0px;
+                border-width: 0px;
+                
+                text-align: left;
+            }
 
-Created with BattleScribe (https://battlescribe.net)
+            div.battlescribe td.profile-name {
+                font-weight: bold;
+            }
+
+            div.battlescribe td.statistic-name {
+                font-weight: bold;
+            }
+
+            div.battlescribe table.statistics {
+            }
+
+            div.battlescribe table.statistics tr.subtotal {
+                font-weight: bold;
+            }
+
+            div.battlescribe table.statistics tr.total {
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            div.battlescribe table.statistics th {
+                border-width: 1px;
+                border-style: solid;
+                border-color: #BBBBBB;
+                
+                font-size: 13px;
+                text-align: right;
+            }
+
+            div.battlescribe table.statistics th.center {
+                text-align: center;
+            }
+
+            div.battlescribe table.statistics td {
+                border-width: 1px;
+                border-style: solid;
+                border-color: #BBBBBB;
+                
+                text-align: right;
+            }
+
+            div.battlescribe span.bold {
+                font-weight: bold;
+            }
+
+            div.battlescribe span.italic {
+                font-style: italic;
+            }
+
+            div.battlescribe span.caps {
+                font-variant: small-caps;
+            }
+        </style>
+
+    </head>
+    <body class="battlescribe">
+        <div class="battlescribe">
+            <h1>Arlequins 1000 (Warhammer 40,000 9th Edition) [52 PL, 4CP, 998pts]</h1>
+            <ul>
+            <li class="force">
+                <h2>Patrol Detachment 0CP (Aeldari - Harlequins) [52 PL, 4CP, 998pts]</h2>
+                <ul>
+                    <li class="category">
+                        <h3>Configuration [6CP]</h3>
+                        <ul>
+                            <li class="rootselection">
+                                <h4>Battle Size [6CP]</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> 2. Incursion (51-100 Total PL / 501-1000 Points)  [6CP]
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Configuration</span>
+                                </p>
+
+                            </li>
+                            <li class="rootselection">
+                                <h4>Detachment Command Cost</h4>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Configuration</span>
+                                </p>
+
+                            </li>
+                            <li class="rootselection">
+                                <h4>Masque Form</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> The Frozen Stars: Hysterical Fury
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Configuration, Faction: Harlequins</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Frozen Stars: Hysterical Fury</span>
+                                </p>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Frozen Stars: Hysterical Fury</td>
+                                            <td>If a unit with this form charges in the Charge phase, add 1 to their Attacks characteristic until the end of the ensuing Fight phase.</td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category">
+                        <h3>HQ [10 PL, 191pts]</h3>
+                        <ul>
+                            <li class="rootselection">
+                                <h4>Shadowseer [6 PL, 115pts]</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> Hallucinogen Grenade Launcher, Miststave, Shield From Harm, Shuriken Pistol, Smite, Twilight Pathways, Veil of Tears
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: &lt;Masque&gt;, Faction: Aeldari, Character, HQ, Faction: Harlequins, Infantry, Psyker, Shadowseer</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Flip Belt, Holo-suit, Rising Crescendo, Shield from Harm</span>, <span class="bold">Psychic Power:</span> <span class="italic">Smite, Twilight Pathways, Veil of Tears</span>, <span class="bold">Psyker:</span> <span class="italic">Shadowseer - Psyker</span>, <span class="bold">Unit:</span> <span class="italic">Shadowseer</span>, <span class="bold">Weapon:</span> <span class="italic">Hallucinogen Grenade Launcher, Miststave, Shuriken pistol</span>
+                                </p>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Flip Belt</td>
+                                            <td>Each time this unit makes a Normal Move, Advances, Falls<br/>
+                                            Back or makes a charge move, until that move is finished,<br/>
+                                            models in this unit can move horizontally through models and<br/>
+                                            terrain features (they cannot finish a move on top of another<br/>
+                                            model, or its base).</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Holo-suit</td>
+                                            <td>Models in this unit have a 4+ Invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Rising Crescendo</td>
+                                            <td>Models in this unit can Advance and charge in the same turn. In addition, they can Fall Back and still shoot and/or charge in the same turn.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shield from Harm</td>
+                                            <td>Your opponent must subtract 1 from the wound rolls for any attacks made against friendly MASQUE INFANTRY units that are within 6" of any models with this ability.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Psychic Power</th>
+                                            <th>Warp Charge</th><th>Range</th><th>Details</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Smite</td>
+                                            <td>5</td><td>18"</td><td>Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18" of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead.</td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Twilight Pathways</td>
+                                            <td>6</td><td>3"</td><td>If manifested, select a friendly HARLEQUINS unit within 3" of the psyker and visible to it. That unit can immediately move as if it were its Movement phase. You cannot use Twilight Pathways on a unit more than once in each Psychic phase.</td>
+                                            <td>
+                                                Codex: Harlequins p73
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Veil of Tears</td>
+                                            <td>7</td><td>18"</td><td>If manifested, select a friendly HARLEQUINS INFANTRY unit within 18" of the psyker. Until the start of your next Psychic phase, subtract 1 from hit rolls for attacks made against that unit.</td>
+                                            <td>
+                                                Codex: Harlequins p73
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Psyker</th>
+                                            <th>Cast</th><th>Deny</th><th>Powers Known</th><th>Other</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shadowseer - Psyker</td>
+                                            <td>2</td><td>1</td><td>2 - Phantasmancy</td><td></td>
+                                            <td>
+                                                Codex: Harlequins p57
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shadowseer</td>
+                                            <td>8"</td><td>2+</td><td>2+</td><td>3</td><td>3</td><td>5</td><td>3</td><td>9</td><td>7+</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Hallucinogen Grenade Launcher</td>
+                                            <td>18"</td><td>Assault 1</td><td>*</td><td>*</td><td>*</td><td>If a unit is hit by this weapon, roll 2D6 - if the roll is equal to or greater than the target unit's Leadership, it suffers D3 mortal wounds.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Miststave</td>
+                                            <td>Melee</td><td>Melee</td><td>+2</td><td>-1</td><td>D3</td><td>-</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shuriken pistol</td>
+                                            <td>12"</td><td>Pistol 1</td><td>4</td><td>0</td><td>1</td><td>Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3 instead of 0.</td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                            <li class="rootselection">
+                                <h4>Troupe Master [4 PL, 76pts]</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> Choreographer of War, Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: &lt;Masque&gt;, Faction: Aeldari, Character, HQ, Faction: Harlequins, Infantry, Troupe Master</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Choreographer of War, Flip Belt, Holo-suit, Rising Crescendo</span>, <span class="bold">Unit:</span> <span class="italic">Troupe Master</span>, <span class="bold">Weapon:</span> <span class="italic">Fusion Pistol, Harlequin's Caress, Plasma Grenade</span>
+                                </p>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Choreographer of War</td>
+                                            <td>In the Fight phase, re-roll failed wound rolls for friendly MASQUE units that are within 6" of this model.</td>
+                                            <td>
+                                                Codex: Harlequins p56
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Flip Belt</td>
+                                            <td>Each time this unit makes a Normal Move, Advances, Falls<br/>
+                                            Back or makes a charge move, until that move is finished,<br/>
+                                            models in this unit can move horizontally through models and<br/>
+                                            terrain features (they cannot finish a move on top of another<br/>
+                                            model, or its base).</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Holo-suit</td>
+                                            <td>Models in this unit have a 4+ Invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Rising Crescendo</td>
+                                            <td>Models in this unit can Advance and charge in the same turn. In addition, they can Fall Back and still shoot and/or charge in the same turn.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Troupe Master</td>
+                                            <td>8"</td><td>2+</td><td>2+</td><td>3</td><td>3</td><td>5</td><td>5</td><td>9</td><td>6+</td>
+                                            <td>
+                                                Codex: Harlequins p56
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Fusion Pistol</td>
+                                            <td>6"</td><td>Pistol 1</td><td>8</td><td>-4</td><td>D6</td><td>If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Harlequin's Caress</td>
+                                            <td>Melee</td><td>Melee</td><td>+2</td><td>-2</td><td>1</td><td>-</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Plasma Grenade</td>
+                                            <td>6"</td><td>Grenade D6</td><td>4</td><td>-1</td><td>1</td><td>Blast</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category">
+                        <h3>Troops [5 PL, 125pts]</h3>
+                        <ul>
+                            <li class="rootselection">
+                                <h4>Troupe [5 PL, 125pts]</h4>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: Aeldari, Faction: &lt;Masque&gt;, Infantry, Faction: Harlequins, Troops, Troupe</span>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <h4>Player [1 PL, 25pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Abilities:</span> <span class="italic">Flip Belt, Holo-suit, Rising Crescendo</span>, <span class="bold">Unit:</span> <span class="italic">Player</span>, <span class="bold">Weapon:</span> <span class="italic">Fusion Pistol, Harlequin's Caress, Plasma Grenade</span>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h4>Player [1 PL, 25pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Abilities:</span> <span class="italic">Flip Belt, Holo-suit, Rising Crescendo</span>, <span class="bold">Unit:</span> <span class="italic">Player</span>, <span class="bold">Weapon:</span> <span class="italic">Fusion Pistol, Harlequin's Caress, Plasma Grenade</span>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h4>Player [1 PL, 25pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Abilities:</span> <span class="italic">Flip Belt, Holo-suit, Rising Crescendo</span>, <span class="bold">Unit:</span> <span class="italic">Player</span>, <span class="bold">Weapon:</span> <span class="italic">Fusion Pistol, Harlequin's Caress, Plasma Grenade</span>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h4>Player [1 PL, 25pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Abilities:</span> <span class="italic">Flip Belt, Holo-suit, Rising Crescendo</span>, <span class="bold">Unit:</span> <span class="italic">Player</span>, <span class="bold">Weapon:</span> <span class="italic">Fusion Pistol, Harlequin's Caress, Plasma Grenade</span>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h4>Player [1 PL, 25pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Fusion Pistol [5pts], Harlequin's Caress [6pts], Plasma Grenades
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Abilities:</span> <span class="italic">Flip Belt, Holo-suit, Rising Crescendo</span>, <span class="bold">Unit:</span> <span class="italic">Player</span>, <span class="bold">Weapon:</span> <span class="italic">Fusion Pistol, Harlequin's Caress, Plasma Grenade</span>
+                                        </p>
+
+                                    </li>
+                                </ul>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Flip Belt</td>
+                                            <td>Each time this unit makes a Normal Move, Advances, Falls<br/>
+                                            Back or makes a charge move, until that move is finished,<br/>
+                                            models in this unit can move horizontally through models and<br/>
+                                            terrain features (they cannot finish a move on top of another<br/>
+                                            model, or its base).</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Holo-suit</td>
+                                            <td>Models in this unit have a 4+ Invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Rising Crescendo</td>
+                                            <td>Models in this unit can Advance and charge in the same turn. In addition, they can Fall Back and still shoot and/or charge in the same turn.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Player</td>
+                                            <td>8"</td><td>3+</td><td>3+</td><td>3</td><td>3</td><td>1</td><td>4</td><td>8</td><td>6+</td>
+                                            <td>
+                                                Codex: Harlequins p58
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Fusion Pistol</td>
+                                            <td>6"</td><td>Pistol 1</td><td>8</td><td>-4</td><td>D6</td><td>If the target is within half range of this weapon, roll two dice when inflicting damage with it and discard the lowest result.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Harlequin's Caress</td>
+                                            <td>Melee</td><td>Melee</td><td>+2</td><td>-2</td><td>1</td><td>-</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Plasma Grenade</td>
+                                            <td>6"</td><td>Grenade D6</td><td>4</td><td>-1</td><td>1</td><td>Blast</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category">
+                        <h3>Elites [8 PL, -2CP, 152pts]</h3>
+                        <ul>
+                            <li class="rootselection">
+                                <h4>Death Jester [3 PL, -1CP, 50pts]</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> 1: Luck of the Laughing God, Cegroach's Lament, Death is not Enough, Harvester of Torment, Shrieker Cannon, Stratagem: Pivotal Role [-1CP], Warlord
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: &lt;Masque&gt;, Faction: Aeldari, Character, Faction: Harlequins, Infantry, Elites, Death Jester, Warlord</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Deadly Hunter, Death is Not Enough, Flip Belt, Harvester of Torment, Holo-suit, Luck of the Laughing God, Rising Crescendo</span>, <span class="bold">Unit:</span> <span class="italic">Death Jester</span>, <span class="bold">Weapon:</span> <span class="italic">Cegroach's Lament, Cegroach's Lament (Shuriken), Cegroach's Lament (Wail), Shrieker Cannon (Shrieker), Shrieker Cannon (Shuriken)</span>
+                                </p>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Deadly Hunter</td>
+                                            <td>Each time you select a target for a ranged attack made by this model, you can ignore the Look Out, Sir rule.</td>
+                                            <td>
+                                                Codex: Harlequins p59
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Death is Not Enough</td>
+                                            <td>If any models flee from a unit in the same turn that it has been attacked by this model, then you can choose the first model that flees instead of your opponent choosing.</td>
+                                            <td>
+                                                Codex: Harlequins p59
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Flip Belt</td>
+                                            <td>Each time this unit makes a Normal Move, Advances, Falls<br/>
+                                            Back or makes a charge move, until that move is finished,<br/>
+                                            models in this unit can move horizontally through models and<br/>
+                                            terrain features (they cannot finish a move on top of another<br/>
+                                            model, or its base).</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Harvester of Torment</td>
+                                            <td>Each time this model shoots with the shuriken profile of a shrieker cannon (or the shuriken profile of a Relic which replaces a shrieker cannon), if the target contains 6 or more models, each successful hit roll scores 3 hits instead of 1. This is not cumulative with any other rules that cause additional hits.</td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Holo-suit</td>
+                                            <td>Models in this unit have a 4+ Invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Luck of the Laughing God</td>
+                                            <td>Re-roll hit rolls, wound rolls and damage rolls of 1 for your Warlord.</td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Rising Crescendo</td>
+                                            <td>Models in this unit can Advance and charge in the same turn. In addition, they can Fall Back and still shoot and/or charge in the same turn.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Death Jester</td>
+                                            <td>8"</td><td>2+</td><td>2+</td><td>3</td><td>3</td><td>5</td><td>4</td><td>9</td><td>6+</td>
+                                            <td>
+                                                Codex: Harlequins p59
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Cegroach's Lament</td>
+                                            <td></td><td></td><td></td><td></td><td></td><td>Before selecting targets, select one of the following profiles to make attacks with. Each time a model is slain by an attack made with the Wail profile of this weapon, its unit suffers D3 mortal wounds, and until the end of the next turn, subtract 2 from the leadership characteristic of the unit.</td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Cegroach's Lament (Shuriken)</td>
+                                            <td>36"</td><td>Assault 3</td><td>6</td><td>-3</td><td>1</td><td></td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Cegroach's Lament (Wail)</td>
+                                            <td>36"</td><td>Assault 1</td><td>6</td><td>-3</td><td>3</td><td></td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shrieker Cannon (Shrieker)</td>
+                                            <td>24"</td><td>Assault 1</td><td>6</td><td>-1</td><td>1</td><td>Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3. If an INFANTRY model is slain by an attack made with this weapon, then its unit suffers D3 mortal wounds. If any models in a unit are slain by this weapon, subtract 2 from that unit's Leadership characteristic until the end of the turn.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shrieker Cannon (Shuriken)</td>
+                                            <td>24"</td><td>Assault 3</td><td>6</td><td>0</td><td>1</td><td>Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                            <li class="rootselection">
+                                <h4>Solitaire [5 PL, -1CP, 102pts]</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> Blitz, Harlequin's Caress, Harlequin's Kiss, Stratagem: Pivotal Role [-1CP], Unnatural Acrobatics
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: &lt;Masque&gt;, Faction: Aeldari, Character, Faction: Harlequins, Infantry, Elites, Solitaire</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Blitz, Flip Belt, Impossible Form, Rising Crescendo, The Path of Damnation, Unnatural Acrobatics</span>, <span class="bold">Unit:</span> <span class="italic">Solitaire</span>, <span class="bold">Weapon:</span> <span class="italic">Harlequin's Caress, Harlequin's Kiss</span>
+                                </p>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Blitz</td>
+                                            <td>Once per battle, when you make a Normal Move with the Solitaire, you can make a Blitz move with it. If you do so, add 2D6" to the model's Move characteristic for this turn. In addition, the model's Attack characteristic is increased to 10 for the rest of the turn. This ability may not be used if the model has been selected as the target of the "Twilight Pathways" psychic power in the previous Psychic Phase. A model cannot Advance and use this ability in the same turn.</td>
+                                            <td>
+                                                Codex: Harlequins p60
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Flip Belt</td>
+                                            <td>Each time this unit makes a Normal Move, Advances, Falls<br/>
+                                            Back or makes a charge move, until that move is finished,<br/>
+                                            models in this unit can move horizontally through models and<br/>
+                                            terrain features (they cannot finish a move on top of another<br/>
+                                            model, or its base).</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Impossible Form</td>
+                                            <td>The Solitaire has a 3+ invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins p60
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Rising Crescendo</td>
+                                            <td>Models in this unit can Advance and charge in the same turn. In addition, they can Fall Back and still shoot and/or charge in the same turn.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">The Path of Damnation</td>
+                                            <td>The Solitaire can never have a Warlord Trait.</td>
+                                            <td>
+                                                Codex: Harlequins p60
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Unnatural Acrobatics</td>
+                                            <td>each time an attack is made against this model, subtract 1 from that attack's hit roll</td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Solitaire</td>
+                                            <td>12"</td><td>2+</td><td>2+</td><td>3</td><td>3</td><td>5</td><td>8</td><td>9</td><td>6+</td>
+                                            <td>
+                                                Codex: Harlequins p60
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Harlequin's Caress</td>
+                                            <td>Melee</td><td>Melee</td><td>+2</td><td>-2</td><td>1</td><td>-</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Harlequin's Kiss</td>
+                                            <td>Melee</td><td>Melee</td><td>+1</td><td>-1</td><td>D3</td><td>-</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category">
+                        <h3>Fast Attack [15 PL, 270pts]</h3>
+                        <ul>
+                            <li class="rootselection">
+                                <h4>Skyweavers [15 PL, 270pts]</h4>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: Aeldari, Faction: &lt;Masque&gt;, Faction: Harlequins, Biker, Fly, Fast Attack, Skyweavers</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Blur of Colour, Holo-suit, Mirage Launchers, Rising Crescendo</span>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <h4>Skyweaver [55pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Haywire Cannon [5pts], Zephyrglaive [5pts]
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Unit:</span> <span class="italic">Skyweaver</span>, <span class="bold">Weapon:</span> <span class="italic">Haywire Cannon, Zephyrglaive</span>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h4>Skyweaver [55pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Haywire Cannon [5pts], Zephyrglaive [5pts]
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Unit:</span> <span class="italic">Skyweaver</span>, <span class="bold">Weapon:</span> <span class="italic">Haywire Cannon, Zephyrglaive</span>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h4>Skyweaver [55pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Haywire Cannon [5pts], Zephyrglaive [5pts]
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Unit:</span> <span class="italic">Skyweaver</span>, <span class="bold">Weapon:</span> <span class="italic">Haywire Cannon, Zephyrglaive</span>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h4>Skyweaver [55pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Haywire Cannon [5pts], Zephyrglaive [5pts]
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Unit:</span> <span class="italic">Skyweaver</span>, <span class="bold">Weapon:</span> <span class="italic">Haywire Cannon, Zephyrglaive</span>
+                                        </p>
+
+                                    </li>
+                                    <li>
+                                        <h4>Skyweaver [50pts]</h4>
+                                        <p>
+                                            <span class="bold">Selections:</span> Haywire Cannon [5pts], Star Bolas
+                                        </p>
+                                        <p class="profile-names">
+                                            <span class="bold">Unit:</span> <span class="italic">Skyweaver</span>, <span class="bold">Weapon:</span> <span class="italic">Haywire Cannon, Star Bolas</span>
+                                        </p>
+
+                                    </li>
+                                </ul>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Blur of Colour</td>
+                                            <td>When this unit Advances, add 6" to its Move characteristic for that Movement phase instead of rolling a dice.</td>
+                                            <td>
+                                                Codex: Harlequins p61
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Holo-suit</td>
+                                            <td>Models in this unit have a 4+ Invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Mirage Launchers</td>
+                                            <td>Your opponent must subtract 1 from any hit rolls made against this unit in the Shooting phase</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Rising Crescendo</td>
+                                            <td>Models in this unit can Advance and charge in the same turn. In addition, they can Fall Back and still shoot and/or charge in the same turn.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Skyweaver</td>
+                                            <td>16"</td><td>3+</td><td>3+</td><td>3</td><td>4</td><td>3</td><td>3</td><td>8</td><td>4+</td>
+                                            <td>
+                                                Codex: Harlequins p61
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Haywire Cannon</td>
+                                            <td>24"</td><td>Assault D6</td><td>4</td><td>-1</td><td>1</td><td>Blast. If the target is a VEHICLE and you roll a wound roll of 4+ for this weapon, the target suffers 1 mortal wound in addition to any other damage. If the wound roll is 6+, the target suffers D3 mortal wounds instead.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Star Bolas</td>
+                                            <td>12"</td><td>Grenade D3</td><td>6</td><td>-3</td><td>2</td><td>Blast</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Zephyrglaive</td>
+                                            <td>Melee</td><td>Melee</td><td>+1</td><td>-2</td><td>2</td><td>-</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category">
+                        <h3>Heavy Support [10 PL, 180pts]</h3>
+                        <ul>
+                            <li class="rootselection">
+                                <h4>Voidweaver [5 PL, 90pts]</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> Haywire Cannon, 2x Shuriken Cannon
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: &lt;Masque&gt;, Faction: Aeldari, Fly, Faction: Harlequins, Vehicle, Heavy Support, Voidweaver</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Blur of Colour, Explodes, Holo-fields, Mirage Launchers</span>, <span class="bold">Unit:</span> <span class="italic">Voidweaver</span>, <span class="bold">Weapon:</span> <span class="italic">Haywire Cannon, Shuriken Cannon</span>
+                                </p>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Blur of Colour</td>
+                                            <td>When this unit Advances, add 6" to its Move characteristic for that Movement phase instead of rolling a dice.</td>
+                                            <td>
+                                                Codex: Harlequins p61
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Explodes</td>
+                                            <td>If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6" suffers 1 mortal wound.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Holo-fields</td>
+                                            <td>Models in this unit have a 4+ Invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Mirage Launchers</td>
+                                            <td>Your opponent must subtract 1 from any hit rolls made against this unit in the Shooting phase</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Voidweaver</td>
+                                            <td>16"</td><td>3+</td><td>3+</td><td>5</td><td>5</td><td>6</td><td>3</td><td>8</td><td>4+</td>
+                                            <td>
+                                                Codex: Harlequins p56
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Haywire Cannon</td>
+                                            <td>24"</td><td>Assault D6</td><td>4</td><td>-1</td><td>1</td><td>Blast. If the target is a VEHICLE and you roll a wound roll of 4+ for this weapon, the target suffers 1 mortal wound in addition to any other damage. If the wound roll is 6+, the target suffers D3 mortal wounds instead.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shuriken Cannon</td>
+                                            <td>24"</td><td>Assault 3</td><td>6</td><td>0</td><td>1</td><td>Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                            <li class="rootselection">
+                                <h4>Voidweaver [5 PL, 90pts]</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> Haywire Cannon, 2x Shuriken Cannon
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: &lt;Masque&gt;, Faction: Aeldari, Fly, Faction: Harlequins, Vehicle, Heavy Support, Voidweaver</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Blur of Colour, Explodes, Holo-fields, Mirage Launchers</span>, <span class="bold">Unit:</span> <span class="italic">Voidweaver</span>, <span class="bold">Weapon:</span> <span class="italic">Haywire Cannon, Shuriken Cannon</span>
+                                </p>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Blur of Colour</td>
+                                            <td>When this unit Advances, add 6" to its Move characteristic for that Movement phase instead of rolling a dice.</td>
+                                            <td>
+                                                Codex: Harlequins p61
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Explodes</td>
+                                            <td>If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6" suffers 1 mortal wound.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Holo-fields</td>
+                                            <td>Models in this unit have a 4+ Invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Mirage Launchers</td>
+                                            <td>Your opponent must subtract 1 from any hit rolls made against this unit in the Shooting phase</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Voidweaver</td>
+                                            <td>16"</td><td>3+</td><td>3+</td><td>5</td><td>5</td><td>6</td><td>3</td><td>8</td><td>4+</td>
+                                            <td>
+                                                Codex: Harlequins p56
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Haywire Cannon</td>
+                                            <td>24"</td><td>Assault D6</td><td>4</td><td>-1</td><td>1</td><td>Blast. If the target is a VEHICLE and you roll a wound roll of 4+ for this weapon, the target suffers 1 mortal wound in addition to any other damage. If the wound roll is 6+, the target suffers D3 mortal wounds instead.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shuriken Cannon</td>
+                                            <td>24"</td><td>Assault 3</td><td>6</td><td>0</td><td>1</td><td>Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category">
+                        <h3>Dedicated Transport [4 PL, 80pts]</h3>
+                        <ul>
+                            <li class="rootselection">
+                                <h4>Starweaver [4 PL, 80pts]</h4>
+                                <p>
+                                    <span class="bold">Selections:</span> 2x Shuriken Cannon
+                                </p>
+                                <p class="category-names">
+                                    <span class="bold">Categories:</span> <span class="caps">Faction: &lt;Masque&gt;, Faction: Aeldari, Dedicated Transport, Fly, Faction: Harlequins, Transport, Vehicle, Starweaver</span>
+                                </p>
+                                <p class="profile-names">
+                                    <span class="bold">Abilities:</span> <span class="italic">Blur of Colour, Explodes, Holo-fields, Mirage Launchers, Open-topped</span>, <span class="bold">Transport:</span> <span class="italic">Starweaver - Transport</span>, <span class="bold">Unit:</span> <span class="italic">Starweaver</span>, <span class="bold">Weapon:</span> <span class="italic">Shuriken Cannon</span>
+                                </p>
+                                    <br>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Abilities</th>
+                                            <th>Description</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Blur of Colour</td>
+                                            <td>When this unit Advances, add 6" to its Move characteristic for that Movement phase instead of rolling a dice.</td>
+                                            <td>
+                                                Codex: Harlequins p61
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Explodes</td>
+                                            <td>If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield and before any embarked models disembark. On a 6 it explodes, and each unit within 6" suffers 1 mortal wound.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Holo-fields</td>
+                                            <td>Models in this unit have a 4+ Invulnerable save.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Mirage Launchers</td>
+                                            <td>Your opponent must subtract 1 from any hit rolls made against this unit in the Shooting phase</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Open-topped</td>
+                                            <td>Models embarked on this model can attack in their Shooting phase. Measure the range and draw line of sight from any point on this model. When they do so, any restrictions or modifiers that apply to this model also apply to its passengers; for example, the passengers cannot shoot if this model has Fallen Back in the same turn and so on, cannot shoot (except with Pistols) if this model is within 1" of an enemy unit, and so on. Note that, due to their Rising Crescendo ability, the passengers can shoot if this model Falls Back.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Transport</th>
+                                            <th>Capacity</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Starweaver - Transport</td>
+                                            <td>A Starweaver can transport 6 MASQUE INFANTRY models.</td>
+                                            <td>
+                                                Codex: Harlequins p63
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Unit</th>
+                                            <th>M</th><th>WS</th><th>BS</th><th>S</th><th>T</th><th>W</th><th>A</th><th>Ld</th><th>Save</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Starweaver</td>
+                                            <td>16"</td><td>3+</td><td>3+</td><td>5</td><td>5</td><td>6</td><td>3</td><td>8</td><td>4+</td>
+                                            <td>
+                                                Codex: Harlequins p63
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table cellspacing="-1">
+                                        <tr>
+                                            <th>Weapon</th>
+                                            <th>Range</th><th>Type</th><th>S</th><th>AP</th><th>D</th><th>Abilities</th>
+                                            <th>Ref</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="profile-name">Shuriken Cannon</td>
+                                            <td>24"</td><td>Assault 3</td><td>6</td><td>0</td><td>1</td><td>Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -3.</td>
+                                            <td>
+                                                Codex: Harlequins
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+
+            </ul>
+
+
+
+            <br>
+            <p>Created with <a href="https://www.battlescribe.net">BattleScribe</a></p>
+        </div>
+    </body>
+</html>
